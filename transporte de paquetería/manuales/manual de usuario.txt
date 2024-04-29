@@ -1,0 +1,43 @@
+Manual de Usuario: Sistema de Cálculo de Costos de Envíos
+
+¡Bienvenido al Sistema de Cálculo de Costos de Envíos! Este sistema te permite calcular el costo de enviar diferentes tipos de productos según su peso, dimensiones y fragilidad. A continuación, te proporcionamos una guía paso a paso para utilizar el sistema:
+
+1. Requisitos Previos
+
+Asegúrate de tener instalado Java en tu sistema.
+Descarga el archivo que contiene el código fuente del sistema.
+2. Compilación del Código
+
+Abre una terminal o línea de comandos en tu sistema operativo.
+Navega hasta la ubicación del archivo que contiene el código fuente.
+Compila el código escribiendo el siguiente comando y presionando Enter:
+
+"javac Main.java"
+
+ Ejecución del Programa
+
+Una vez compilado el código, ejecuta el programa con el siguiente comando:
+
+"java Main"
+
+4. Interacción con el Sistema
+
+Al ejecutar el programa, verás el costo de tres tipos de envíos predefinidos: paquete estándar, documento urgente y artículo frágil.
+El sistema mostrará el costo de cada tipo de envío.
+
+5. Personalización de Envíos
+
+Si deseas calcular el costo de otro tipo de envío, puedes modificar los parámetros en la clase Main y ejecutar el programa nuevamente.
+Puedes ajustar el peso, las dimensiones y la fragilidad del envío según tus necesidades.
+
+6. Interpretación de Resultados
+
+El costo del envío se muestra en la consola después de ejecutar el programa.
+Los costos se expresan en la moneda del sistema (por ejemplo, dólares, euros, etc.).
+
+7. Salida del Programa
+
+Una vez que hayas obtenido los resultados deseados, puedes cerrar la consola o terminal para salir del programa.
+¡Y eso es todo! Con esta guía, deberías poder utilizar el Sistema de Cálculo de Costos de Envíos de manera efectiva. Si tienes alguna pregunta o problema, no dudes en contactar al soporte técnico.
+
+¡Gracias por utilizar nuestro sistema y que tengas un excelente día!

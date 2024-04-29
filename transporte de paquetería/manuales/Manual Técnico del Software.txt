@@ -1,0 +1,98 @@
+Requerimientos Funcionales1. Estructura del Proyecto:
+
+El proyecto está estructurado en varios archivos Java que componen el sistema de cálculo de costos de envíos:
+
+Main.java: Contiene la clase principal con el método main() para ejecutar el programa.
+Shipment.java: Define la clase abstracta Shipment con los atributos y métodos básicos para los envíos.
+StandardPackage.java, UrgentDocument.java, FragileItem.java: Clases concretas que extienden Shipment y proporcionan implementaciones específicas para distintos tipos de envíos.
+ShipmentCalculator.java: Clase que ofrece un método estático para calcular el costo de un envío.
+2. Requisitos de Software:
+
+Lenguaje de Programación: Java (JDK 8 o superior).
+Entorno de Desarrollo Integrado (IDE): Se puede utilizar cualquier IDE de Java compatible, como Eclipse, IntelliJ IDEA o NetBeans.
+3. Dependencias:
+
+No hay dependencias externas para este proyecto.
+
+4. Compilación y Ejecución:
+
+Para compilar y ejecutar el programa, sigue estos pasos:
+
+Compilación:
+Abre una terminal o línea de comandos.
+Navega hasta el directorio que contiene los archivos fuente (donde se encuentran los archivos .java).
+Ejecuta el siguiente comando para compilar los archivos:
+
+javac Main.java
+
+Ejecución:
+Una vez compilado el código, ejecuta el programa con el siguiente comando:
+
+java Main
+
+
+Manual Técnico del Software
+
+1. Estructura del Proyecto:
+
+El proyecto está estructurado en varios archivos Java que componen el sistema de cálculo de costos de envíos:
+
+Main.java: Contiene la clase principal con el método main() para ejecutar el programa.
+Shipment.java: Define la clase abstracta Shipment con los atributos y métodos básicos para los envíos.
+StandardPackage.java, UrgentDocument.java, FragileItem.java: Clases concretas que extienden Shipment y proporcionan implementaciones específicas para distintos tipos de envíos.
+ShipmentCalculator.java: Clase que ofrece un método estático para calcular el costo de un envío.
+2. Requisitos de Software:
+
+Lenguaje de Programación: Java (JDK 8 o superior).
+Entorno de Desarrollo Integrado (IDE): Se puede utilizar cualquier IDE de Java compatible, como Eclipse, IntelliJ IDEA o NetBeans.
+3. Dependencias:
+
+No hay dependencias externas para este proyecto.
+
+4. Compilación y Ejecución:
+
+Para compilar y ejecutar el programa, sigue estos pasos:
+
+Compilación:
+Abre una terminal o línea de comandos.
+Navega hasta el directorio que contiene los archivos fuente (donde se encuentran los archivos .java).
+Ejecuta el siguiente comando para compilar los archivos:
+
+javac Main.java
+Ejecución:
+Una vez compilado el código, ejecuta el programa con el siguiente comando:
+
+java Main
+5. Estructura de Clases:
+
+Shipment (Clase Abstracta):
+Atributos: weight, length, width, height, isFragile.
+Métodos:
+Constructor para inicializar los atributos.
+Métodos abstractos para calcular el costo y obtener los atributos.
+Clases Concretas (StandardPackage, UrgentDocument, FragileItem):
+Heredan de Shipment.
+Implementan el método calculateCost() con la lógica específica de cada tipo de envío.
+ShipmentCalculator (Clase de Servicio):
+Método estático calculateShipmentCost() para calcular el costo de un envío.
+6. Funcionamiento del Programa:
+
+En la clase Main, se crean instancias de diferentes tipos de envíos (paquete estándar, documento urgente, artículo frágil).
+Se utiliza ShipmentCalculator para calcular el costo de cada envío.
+Los resultados se muestran en la consola.
+7. Modificaciones y Personalización:
+
+Para modificar los parámetros de los envíos, se pueden ajustar los valores de peso, dimensiones y fragilidad en la clase Main.
+Se pueden agregar nuevos tipos de envíos creando nuevas clases que hereden de Shipment e implementando la lógica de cálculo de costos correspondiente.
+8. Mantenimiento:
+
+El código está estructurado de manera modular y bien documentado para facilitar su mantenimiento.
+Se siguen las convenciones de codificación de Java para una mejor legibilidad y mantenibilidad del código.
+9. Pruebas:
+
+Se pueden realizar pruebas unitarias para cada método importante del código para garantizar su funcionamiento correcto.
+Se pueden utilizar frameworks de pruebas como JUnit para automatizar las pruebas.
+10. Consideraciones de Rendimiento:
+
+El cálculo de costos se realiza de manera eficiente, utilizando operaciones básicas de matemáticas.
+Se evitan operaciones costosas dentro de bucles o estructuras repetitivas para minimizar el tiempo de ejecución.

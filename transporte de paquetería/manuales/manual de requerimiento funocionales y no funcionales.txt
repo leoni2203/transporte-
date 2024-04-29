@@ -1,0 +1,33 @@
+Requerimientos Funcionales
+
+Creación de Envíos:
+El sistema debe permitir la creación de diferentes tipos de envíos, como paquetes estándar, documentos urgentes y artículos frágiles.
+Cálculo de Costos:
+El sistema debe calcular el costo de cada tipo de envío según su peso, dimensiones y fragilidad.
+El cálculo del costo debe basarse en algoritmos específicos para cada tipo de envío.
+Visualización de Resultados:
+El sistema debe mostrar el costo de cada tipo de envío en la consola o interfaz de usuario.
+Flexibilidad de Parámetros:
+El sistema debe permitir la personalización de parámetros como peso, dimensiones y fragilidad para cada tipo de envío.
+Manejo de Excepciones:
+El sistema debe manejar excepciones como entradas inválidas o valores negativos para peso y dimensiones.
+Requerimientos No Funcionales
+
+Eficiencia:
+El cálculo del costo de envío debe realizarse de manera eficiente, sin retrasos significativos.
+El código debe estar optimizado para ejecutarse en un tiempo razonable.
+Usabilidad:
+La interfaz de usuario (en este caso, la consola) debe ser fácil de entender y usar.
+Los mensajes de salida deben ser claros y comprensibles para el usuario.
+Portabilidad:
+El sistema debe ser compatible con diferentes sistemas operativos que admitan Java.
+Mantenibilidad:
+El código debe estar bien estructurado y documentado para facilitar su mantenimiento y futuras actualizaciones.
+Debe seguir las convenciones de codificación y buenas prácticas de programación.
+Robustez:
+El sistema debe manejar cualquier entrada de usuario de manera robusta, evitando fallas o comportamientos inesperados.
+Debe contar con mecanismos para detectar y manejar errores durante la ejecución.
+Escalabilidad:
+El sistema debe ser capaz de manejar un crecimiento en la cantidad de tipos de envío o la complejidad de los cálculos sin problemas de rendimiento significativos.
+Seguridad:
+No se requiere una capa de seguridad explícita para este sistema, ya que no maneja datos sensibles ni transacciones financieras.
